@@ -1,1 +1,39 @@
+# Python
 .venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data files (opcional: descomentar si no quieres trackear datos)
+# data/raw/*
+# data/processed/*
+# !data/raw/.gitkeep
+# !data/processed/.gitkeep
+
+# Reports and outputs
+reports/etl.log
+reports/*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/

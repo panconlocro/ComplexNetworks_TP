@@ -1,0 +1,57 @@
+# Configuración central del proyecto - Hito 1
+# Análisis de redes y consumo de servicios
+
+# Rutas relativas desde la raíz del proyecto
+paths:
+  data_raw: "data/raw"
+  data_processed: "data/processed"
+  figures: "reports/figures"
+  reports: "reports"
+  notebooks: "notebooks"
+
+# Columnas esperadas en el dataset
+columns_expected:
+  - PERSONA
+  - TIPO DE SERVICIO
+  - NOMBRE DE LA TAREA
+  - AÑO
+  - MODALIDAD
+  - COMPLEJIDAD
+
+# Dominios permitidos para variables categóricas
+domains:
+  MODALIDAD:
+    - Presencial
+    - Virtual
+  COMPLEJIDAD:
+    - Baja
+    - Alta
+    - Mediana
+
+# Configuración temporal
+time:
+  timezone: "America/Lima"
+  year_min: 2015
+  year_max: 2030
+
+# Semilla para reproducibilidad
+random_seed: 42
+
+# Nombres estándar de archivos de salida
+outputs:
+  datos_limpios: "datos_limpios.csv"
+  edges_bipartita: "edges_bipartita.csv"
+  proyeccion_cc_ponderada: "proyeccion_cc_ponderada.csv"
+  snapshot_suffix: "_snapshot"
+  limpieza_log_md: "limpieza_log.md"
+  limpieza_log_csv: "limpieza_log.csv"
+  etl_log: "etl.log"
+
+# Configuración de gráficos
+plots:
+  dpi: 300
+  figsize_default: [10, 6]
+  figsize_hist: [8, 5]
+  figsize_bar: [12, 6]
+  format: "png"
+  style: "seaborn-v0_8-darkgrid"

@@ -24,7 +24,7 @@ __pycache__/
 # data/processed/*
 # !data/raw/.gitkeep
 # !data/processed/.gitkeep
-
+data/processed/proyeccion_cc_ponderada.csv
 # Reports and outputs
 reports/etl.log
 reports/*.log

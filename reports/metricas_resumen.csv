@@ -1,0 +1,2 @@
+n_nodes,n_edges,density,avg_degree,max_degree,min_degree,isolated_nodes,pct_isolated,n_components,lcc_size,lcc_pct,clustering_global,avg_strength,max_strength,min_strength,std_strength,total_weight,avg_edge_weight
+5090,7189307,0.5550943307360805,2824.8750491159135,5049,40,0,0.0,1,5090,100.0,0.8760849068820293,2918.3960707269157,6186,40,1149.5647702527126,7427318,1.0331062507137336

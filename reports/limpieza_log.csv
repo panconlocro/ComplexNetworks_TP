@@ -1,0 +1,5 @@
+operacion,columnas_procesadas,valores_modificados,registros_removidos,columnas_clave
+Normalización de texto,5.0,51920.0,,
+Filtrado por dominios,,,0.0,
+Eliminación de duplicados,,,2429.0,"['PERSONA', 'TIPO DE SERVICIO', 'AÑO', 'NOMBRE DE LA TAREA', 'MODALIDAD']"
+Eliminación de nulos,,,0.0,

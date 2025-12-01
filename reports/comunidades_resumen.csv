@@ -1,4 +1,4 @@
 Comunidad,Tamaño,N_personas,N_registros,Densidad,Clustering_interno,MODALIDAD_dominante,MODALIDAD_prop,COMPLEJIDAD_dominante,COMPLEJIDAD_prop
-0,2412,2412,4656,1.0,1.0,Virtual,0.643,Baja,0.857
-1,2352,2352,2906,1.0,1.0,Virtual,0.549,Baja,0.569
-2,326,326,393,0.4314,0.9728,Presencial,0.947,Mediana,0.69
+0,2285,2285,3728,1.0,1.0,Virtual,0.736,Baja,0.91
+1,453,453,1321,0.5448,0.9703,Presencial,0.794,Baja,0.543
+2,2352,2352,2906,1.0,1.0,Virtual,0.549,Baja,0.569
